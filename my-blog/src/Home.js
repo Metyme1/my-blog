@@ -10,6 +10,8 @@ const Home = () => {
       { error && <div>{ error }</div> }
       { isPending && <div>Loading...</div> }
       { blogs && <BlogList blogs={blogs} /> }
+      { blogs && <BlogList blogs={blogs} /> }
+
     </div>
   );
 }

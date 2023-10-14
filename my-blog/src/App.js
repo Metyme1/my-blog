@@ -1,15 +1,13 @@
-
-import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
-  const title = "hello"
-
-  const link ="http://www.google.com"
-
   return (
     <div className="App">
-     <h1>{title}</h1>
-     <a href = {link}>google </a>
+      <Navbar />
+      <div className="content">
+        <Home />
+      </div>
     </div>
   );
 }
